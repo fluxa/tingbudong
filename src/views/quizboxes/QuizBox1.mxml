@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Panel xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="100%"  styleName="quizPanel"
+		  verticalScrollPolicy="off" horizontalScrollPolicy="off" >
+	<mx:Canvas x="0" y="0" id="frontview" width="100%" height="100%">
+		<mx:Label id="percentage" text="0%" right="15" top="2" textAlign="right" />
+		<mx:Button  id="btn" label="Start" styleName="quizbutton"
+					height="30" width="{this.width}" bottom="15" left="15" right="15"/>	
+		<mx:Label id="wordscount" text="test" left="15" top="2"/>
+	</mx:Canvas>
+</mx:Panel>	
